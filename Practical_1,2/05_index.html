@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+</head>
+
+<style>
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    table {
+        margin: 10px 0px;
+    }
+    label,input,select{
+        margin: 5px 20px;
+    }
+    button{
+        margin-left: 80px;
+        padding: 8px 70px;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <h2>Government Engineering Collage, Bhavnagar</h2>
+        <h3>Student Admission Form </h3>
+
+        <form action="">
+            <div class="tbl">
+                <table>
+                <tr>
+                    <td> 
+                        <label for="i">Student Image:</label>
+                    </td>
+                    <td>
+                        <input type="file" id="i" name="i">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="f">Father Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="f" name="f">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="m">Mother Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="m" name="m">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="g">Gender:</label>
+                    </td>
+                    <td>
+                         <input type="radio" id="g" name="g">Male
+                         <input type="radio" id="g" name="g">Female
+                         <input type="radio" id="g" name="g">Other
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="d">Date of Birth:</label>
+                    </td>
+                    <td>
+                        <input type="date" id="d" name="d">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="e">E-mail:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="e" name="e">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="b">Department:</label>
+                    </td>
+                    <td>
+                        <select name="b" id="b">
+                            <option value="IT">IT</option>
+                            <option value="CE">CE</option>
+                            <option value="ICT">ICT</option>
+                            <option value="MECH">MECH</option>
+                            <option value="CIVIL">CIVIL</option>
+                            <option value="EC">EC</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="t">Phone no.:</label>
+                    </td>
+                    <td>
+                        <input type="tel" id="t" name="t">
+                    </td>
+                </tr>  
+                <tr>
+                    <td>
+                        <label for="s">MarkSheet:</label>
+                    </td>
+                    <td>
+                        <input type="file" id="s" name="s">
+                    </td>
+                </tr>  
+                <tr>
+                    <td>
+                        <label for="a">Address Proof:</label>
+                    </td>
+                    <td>
+                        <input type="file" id="a" name="a">
+                    </td>
+                </tr>  
+            </table>
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+</div>
+</body>
+
+</html>

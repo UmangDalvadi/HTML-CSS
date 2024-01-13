@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capital of country</title>
+    <link rel="stylesheet" href="07_style.css">
+</head>
+
+<body>
+    <div class="main">
+        <table >
+            <tr>
+                <td> 
+                    <label for="con">
+                        <h1>Select the Contry:</h1>
+                    </label>
+                </td>
+                <td>
+                    <select id="con" onchange="chcap()">
+                        <option value="none">None</option>
+                        <option value="ind">India</option>
+                        <option value="us">America</option>
+                        <option value="japan">Japan</option>
+                        <option value="uk">United kingdom</option>
+                        <option value="uae">UAE</option>
+                    </select>            
+                </td>
+            </tr>
+            <tr >
+                <td colspan="2" class="cap" >
+                    <h2 class="h2-cap">Capital: </h2>
+                    <h3 id="ans"></h3>
+                    
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+    <script src="07_script.js"></script>
+</body>
+
+</html>

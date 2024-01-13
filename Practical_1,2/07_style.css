@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main{
+    padding: 20px;
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    box-shadow: 1px 2px 15px gray;
+    
+}
+table{
+    border-spacing: 10px;
+}
+#con{
+    padding: 7px;
+    margin-left: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 125px;
+}
+.cap{
+    margin-top: 50px;
+}
+.h2-cap{
+    display: inline;
+
+}
+#ans{
+    margin-left: 10px;
+    display: inline;
+}
